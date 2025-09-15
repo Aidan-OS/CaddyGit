@@ -1,0 +1,5 @@
+bast.aidansmith.dev {
+	import ./security.conf
+	import ./down_handler.conf
+	reverse_proxy	http://10.10.110.10:30000
+}

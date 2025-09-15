@@ -1,0 +1,5 @@
+adeptus.aidansmith.dev {
+	import ./security.conf
+	import ./down_handler.conf
+	reverse_proxy	http://10.10.110.9:30000
+}

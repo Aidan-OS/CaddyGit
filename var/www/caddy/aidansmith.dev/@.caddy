@@ -1,0 +1,4 @@
+aidansmith.dev {
+        import ./security.conf
+        redir *   https://www.aidansmith.dev
+}

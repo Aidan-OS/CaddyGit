@@ -1,0 +1,5 @@
+testbot.dead-end.quest {
+	import ../aidansmith.dev/security.conf
+	import ../aidansmith.dev/down_handler.conf
+	reverse_proxy	http://10.10.110.4:30001
+}

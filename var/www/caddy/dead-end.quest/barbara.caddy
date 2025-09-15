@@ -1,0 +1,9 @@
+barbara.dead-end.quest {
+	@from110 {
+		remote_ip 10.10.110.0/24
+	}
+	handle @from110 {
+		respond "Access from this network is not allowed" 403
+	}
+	reverse_proxy 10.10.110.12:10086
+}

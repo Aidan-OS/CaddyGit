@@ -1,0 +1,4 @@
+www.aidansmith.dev {
+	import ./security.conf
+	reverse_proxy	http://10.10.110.14:80
+}

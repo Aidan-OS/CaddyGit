@@ -1,0 +1,3 @@
+keqing.dead-end.quest {
+	reverse_proxy 10.10.100.5:8384
+}

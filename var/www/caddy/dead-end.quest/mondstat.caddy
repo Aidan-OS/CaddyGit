@@ -1,0 +1,7 @@
+mondstat.dead-end.quest {
+	reverse_proxy https://10.10.100.8:8006 {
+		transport http {
+			tls_insecure_skip_verify
+		}
+	}
+}

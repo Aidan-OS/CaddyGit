@@ -1,0 +1,3 @@
+xiangling.dead-end.quest {
+	reverse_proxy 10.10.100.6:8002
+}

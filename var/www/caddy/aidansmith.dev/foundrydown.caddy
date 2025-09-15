@@ -1,0 +1,4 @@
+foundrydown.aidansmith.dev {
+	root * /var/www/foundry-down
+	file_server
+}
